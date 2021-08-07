@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a.hover,
+a:active {
+  text-decoration: none;
+}
+
+input,
+input:hover,
+input:active,
+input:focus,
+textarea,
+textarea:hover,
+textarea:active,
+textarea:focus,
+select,
+select:hover,
+select:active,
+select:focus {
+  box-shadow: unset;
+  outline: unset;
+  border: unset;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  list-style: none;
+}
+
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 16px;
+}
+
+img {
+  width: 80%;
+  margin-left: 145px;
+  display: block;
+}
+
+p {
+  text-align: center;
+}
+h3 {
+  color: darkred;
+  font-size: 18px;
+}
+
+/* Start formular */
+
+body.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* 
+      1vh = 1% din viewport height
+      1vw = 1% din viewport width
+      */
+}
+
+.accountForm {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 320px;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.accountForm input:not([type="submit"]) {
+  display: block;
+  width: 100%;
+  padding: 7px 15px;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  color: #073b4c;
+}
+
+.accountForm h2 {
+  margin-bottom: 40px;
+}
+
+.accountForm input[type="submit"] {
+  padding: 7px 15px;
+  background-color: #06d6a0;
+  color: #ffffff;
+  border-radius: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.accountForm input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.accountForm label {
+  display: block;
+  color: #073b4c;
+}
+
+.accountForm a {
+  color: #06d6a0;
+}
+
+/* ========================================= */
+
+.container3 {
+  width: 80%;
+  margin-left: 145px;
+}
+
+.container3 .row {
+  display: flex;
+}
+
+.container3 .col {
+  flex: 1;
+}
+
+.container3 p h1 {
+  text-align: center;
+}
+
+.container3 ul {
+  display: flex;
+}
+
+.container3 ul img {
+  width: 305px;
+  height: 220px;
+  padding: 5px 0;
+  border-color: white;
+  border-width: 2px;
+}
+
+.container5 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container5 .row {
+  display: flex;
+}
+
+.container5 .col {
+  flex: 1;
+}
+
+.adresa {
+  flex: 1;
+  align-items: center;
+}
+
+h2 {
+  padding: 30px 200px;
+  font-size: 30px;
+  font-family: sans-serif, monospace;
+  text-align: center;
+}
+
+h4 {
+  padding: 30px 200px;
+  font-size: 30px;
+  font-family: sans-serif, monospace;
+  text-align: center;
+}
+
+.container5 ul {
+  display: flex;
+}
+.container5 .adresa p {
+  text-align: center;
+}
+
+.container6 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container6 .row {
+  display: flex;
+}
+
+.container6 .col {
+  flex: 1;
+}
+
+.container6 ul {
+  display: block;
+}
